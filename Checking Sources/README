@@ -1,0 +1,19 @@
+Just a quick thing about using this, should this be used in the future: 
+
+THE DESIRED MEMBER CATALOG AND CLUSTER CATALOG SHOULD BE IN THIS FOLDER
+
+“Code to run” is the code that needs to be run. Obviously. Compiled in Python 2.7 (but should work in 3?) and best run on the Jupyter notebook. Remember to make sure that the file names are correct
+ 
+“Locations” is the folder where the individual catalog folders with the wav_src.fits files will go. To compile this list effectively, Use the following commands: 
+
+	source activate matcha
+
+	python /data/desdata/matcha/post-pipeline/python/collect_files.py -p /data1/devon/y3a2/6.4.22+2-full/ -o ./Locations regexes wav_src.fits
+
+“table_Y3.csv” is the final table with potential AGN sources. This one contains duplicate matches but shows each location where there was a match. This must be enabled in "Code to run"
+
+“table_Y3_unique.csv” is the final table with potential AGN sources. This one contains only unique matches. This is enabled by default.  
+
+"catalog_members_relevant.fits" is the table containing all catalog members in clusters with at least one AGN in it. 
+
+Finally, this file needs the redMaPPer member and cluster catalogs, the names of which need to be updated in the "Code to run". Additionally, the "Locations" folder needs to be filled to run. 
