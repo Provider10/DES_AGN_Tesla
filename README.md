@@ -9,4 +9,4 @@ The contents of this file are the following:
 
 “Analysis”: This file combines data from both of the above and provides some histograms and other analysis graphs. 
 
-Should you be running from the beginning, this should be run in the above order. In each file is a README which has all the relevant information. If you need more information, please email me at rnoorali@hotmail.com
+Should you be running from the beginning, this should be run in the above order. In each file is a README which has all the relevant information. 
