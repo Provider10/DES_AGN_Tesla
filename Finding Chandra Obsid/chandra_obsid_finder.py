@@ -1,6 +1,6 @@
 import os
 from astropy.table import Table, hstack, vstack
-from numpy import *
+import numpy as np
 import glob
 
 
